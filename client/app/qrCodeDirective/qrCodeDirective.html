@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+      <p class="form-group">
+      <label>Define your url</label>
+      <input type="text" ng-model="UrlToEncode" class="form-control">
+    </p>
+    <button type="button" class="btn btn-sm btn-info" ng-click="saveQrImage()">Get your qr code</button>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+         <img ng-src="{{imageUrl}}" style="margin:auto;">
+    </div>
+  </div>
+</div>

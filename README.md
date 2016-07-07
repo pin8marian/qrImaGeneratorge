@@ -1,7 +1,7 @@
 # qr-generator
 
 This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.5.0.
-
+This app allow users to login, encode a string and generate the QR code for that string.
 ## Getting Started
 
 ### Prerequisites
@@ -12,6 +12,7 @@ This project was generated with the [Angular Full-Stack Generator](https://githu
 - [Grunt](http://gruntjs.com/) (`npm install --global grunt-cli`)
 - [MongoDB](https://www.mongodb.org/) - Keep a running daemon with `mongod`
 - [qr-image](https://www.npmjs.com/package/qr-image) - QR code generator package is need it
+- [mkdirp](https://github.com/substack/node-mkdirp)  - a package to recursively create folders
 ### Developing
 
 1. Run `npm install` to install server dependencies.

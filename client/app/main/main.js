@@ -4,7 +4,7 @@ angular.module('qrGeneratorApp')
   .config(function($stateProvider) {
     $stateProvider
       .state('main', {
-        url: '/',
+        url: '/', 
         template: '<main></main>'
       });
   });

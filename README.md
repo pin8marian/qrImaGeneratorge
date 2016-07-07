@@ -1,6 +1,6 @@
 # qr-generator
 
-This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.5.0.
+This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.5.0.\n\r
 This app allow users to login, encode a string and generate the QR code for that string.
 ## Getting Started
 
